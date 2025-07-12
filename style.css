@@ -1,0 +1,370 @@
+html {
+     scroll-behavior: smooth;
+}
+
+
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     font-family: 'Arial', sans-serif;
+     background-color: #f4f4f4;
+}
+
+header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 40px;
+     background-color: #000000;
+     border-bottom: 1px solid #ffffff;
+     width: 100%;
+     font-family: 'Orbitron',
+          sans-serif;
+     /*font-family: 'Press Start 2P',
+          cursive;*/
+
+}
+
+.logo img {
+     height: 100px;
+     border-radius: 50%;
+}
+
+.title-group {
+     text-align: center;
+     flex-grow: 1;
+}
+
+.title-group h1 {
+     /* font-size: 25px;*/
+     font-size: 35px;
+     color: #ffffff;
+}
+
+.title-group p {
+     /*  font-size: 15px;*/
+     font-size: 20px;
+     color: #45ff0c;
+     margin-top: 4px;
+}
+
+.nav-panel {
+     display: flex;
+     gap: 15px;
+}
+
+.nav-panel a {
+     text-decoration: none;
+     color: #65fe00;
+     font-weight: bold;
+     /* font-size: 12px;*/
+     font-size: 15px;
+     transition: color 0.3s;
+}
+
+.nav-panel a:hover {
+     color: #a2a500;
+}
+
+.contacto {
+     background-color: #000000;
+     padding: 60px 30px;
+     text-align: end;
+     border-top: 2px solid #00ff1a;
+
+}
+
+.contacto h2 {
+     font-size: 20px;
+     color: #ffffff;
+     margin-bottom: 15px;
+     font-family: 'Orbitron',
+          sans-serif;
+
+}
+
+.contacto p {
+     font-size: 16px;
+     color: #5e52e9;
+     margin-bottom: 14px;
+     font-family: 'Orbitron',
+          cursive;
+}
+
+.contacto a {
+     color: #fefefe;
+     text-decoration: none;
+}
+
+.contacto a:hover {
+     color: #00ff1a;
+     /*text-decoration: underline;*/
+}
+
+.contacto i {
+     margin-right: 8px;
+     font-size: 14px;
+     color: #00ff05;
+}
+
+.about-section {
+     background-color: #201d1d38;
+     padding: 60px 30px;
+     border-top: 2px solid #eee;
+     text-align: center;
+}
+
+.about-container {
+     max-width: 800px;
+     margin: 0 auto;
+     font-family: 'Orbitron', 'Courier New', Courier, monospace;
+
+}
+
+.about-container img {
+     width: 100%;
+     max-width: 400px;
+     height: auto;
+     border-radius: 8px;
+     margin-bottom: 20px;
+}
+
+.about-container p {
+     font-size: 18px;
+     color: #000000;
+     line-height: 1.6;
+}
+
+.news-section {
+     padding: 60px 20px;
+     background-color: #020101;
+}
+
+.news-container {
+     display: flex;
+     flex-direction: row-reverse;
+     flex-wrap: nowrap;
+     /* 👈 Clave para poner la imagen a la derecha */
+     max-width: 1200px;
+     margin: auto;
+     gap: 40px;
+     align-items: center;
+     /* flex-wrap: wrap;*/
+}
+
+.news-image {
+     flex: 1 1 40%;
+}
+
+.news-image img {
+     width: 100%;
+     border-radius: 10px;
+     box-shadow: 0 5px 15px rgba(29, 38, 28, 0.1);
+}
+
+.news-content {
+     flex: 1 1 60%;
+}
+
+.news-content p {
+     font-size: 18px;
+     line-height: 1.7;
+     color: #4cee01;
+     font-family: 'Orbitron', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.news-content strong {
+     display: block;
+     font-size: 1.6rem;
+     color: #9a5bff;
+     margin-bottom: 10px;
+     font-family: 'Orbitron',
+          Tahoma,
+          Geneva,
+          Verdana,
+          sans-serif;
+}
+
+.news-content span {
+     display: block;
+     font-size: 1.2rem;
+     color: #f9f9f9;
+     font-style: italic;
+     margin-bottom: 20px;
+     font-family: 'Orbitron',
+          Tahoma,
+          Geneva,
+          Verdana,
+          sans-serif;
+}
+
+/* Responsive en móviles */
+@media (max-width: 768px) {
+     .news-container {
+          flex-direction: column;
+          /* Se apila imagen y texto */
+          text-align: center;
+     }
+
+     .news-content,
+     .news-image {
+          flex: 1 1 100%;
+     }
+
+     .news-content {
+          padding-top: 20px;
+     }
+}
+
+
+
+/* Responsivo */
+@media (max-width: 768px) {
+     header {
+          flex-direction: column;
+          gap: 10px;
+          text-align: center;
+     }
+
+     .title-group {
+          order: -1;
+          flex-grow: 0;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     font-family: 'Arial', sans-serif;
+     background-color: #f4f4f4;
+}
+
+/* Header */
+/* header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 40px;
+     background-color: #fff;
+     border-bottom: 1px solid #ddd;
+     width: 100%;
+}
+
+.logo img {
+     height: 40px;
+}
+
+.title-group {
+     text-align: center;
+     flex-grow: 1;
+}
+
+.title-group h1 {
+     font-size: 24px;
+     color: #222;
+}
+
+.title-group p {
+     font-size: 14px;
+     color: #666;
+     margin-top: 4px;
+}
+
+.nav-panel {
+     display: flex;
+     gap: 15px;
+}
+
+.nav-panel a {
+     text-decoration: none;
+     color: #333;
+     font-weight: bold;
+     font-size: 14px;
+     transition: color 0.3s;
+}
+
+.nav-panel a:hover {
+     color: #d62828;
+} */
+
+/* Sección de contacto */
+/* .contacto {
+     background-color: #ffffff;
+     padding: 60px 30px;
+     text-align: center;
+     border-top: 2px solid #ddd;
+}
+
+.contacto h2 {
+     font-size: 28px;
+     color: #111;
+     margin-bottom: 20px;
+}
+
+.contacto p {
+     font-size: 16px;
+     color: #333;
+     margin-bottom: 12px;
+}
+
+.contacto a {
+     color: #d62828;
+     text-decoration: none;
+}
+
+.contacto a:hover {
+     text-decoration: underline;
+} */
+
+/* Responsive */
+/* @media (max-width: 768px) {
+     header {
+          flex-direction: column;
+          gap: 10px;
+          text-align: center;
+     }
+
+     .title-group {
+          order: -1;
+          flex-grow: 0;
+     }
+}  */
