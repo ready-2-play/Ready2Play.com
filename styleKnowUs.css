@@ -33,6 +33,7 @@ header {
 .logo img {
      height: 100px;
      border-radius: 50%;
+     margin-left: 25px;
 }
 
 .title-group {
@@ -270,6 +271,15 @@ header {
           'Courier New',
           Courier,
           monospace;
+}
+
+.h3know {
+     color: #00ff04;
+     font-family: 'Orbitron',
+          'Courier New',
+          Courier,
+          monospace;
+
 }
 
 .team-carousel {
