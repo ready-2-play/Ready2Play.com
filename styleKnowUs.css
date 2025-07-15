@@ -369,7 +369,7 @@ header {
      .team-carousel {
           display: flex;
           overflow-x: auto;
-          gap: 100px;
+          gap: 50px;
           padding: 10px;
           scroll-snap-type: x mandatory;
           scroll-behavior: smooth;
