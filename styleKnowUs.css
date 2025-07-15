@@ -297,7 +297,7 @@ header {
 }
 
 .team-card:hover {
-     transform: scale(1.08);
+     transform: scale(1.02);
      background-color: #00ff08fd;
 }
 
@@ -359,12 +359,12 @@ header {
           width: 90%;
           /* más pequeño y adaptable */
           padding: 10px;
-          font-size: 14px;
+          font-size: 12px;
           /* reduce tamaño de texto */
      }
 
      .team-card p {
-          font-size: 0.9rem;
+          font-size: 8px;
      }
 }
 
