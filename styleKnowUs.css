@@ -56,7 +56,8 @@ header {
 
 .nav-panel {
      display: flex;
-     gap: 15px;
+     gap: 25px;
+     padding: 15px;
 }
 
 .nav-panel a {
