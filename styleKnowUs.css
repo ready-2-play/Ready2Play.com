@@ -356,6 +356,15 @@ header {
           padding-top: 20px;
      }
 
+     .team-carousel {
+          display: flex;
+          overflow-x: auto;
+          gap: 100px;
+          padding: 10px;
+          scroll-snap-type: x mandatory;
+          scroll-behavior: smooth;
+     }
+
      .team-card {
           width: 30%;
           /* más pequeño y adaptable */
