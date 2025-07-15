@@ -391,3 +391,13 @@ header {
           flex-grow: 0;
      }
 }
+
+@media (min-width: 500px) {
+     .team-card img {
+          width: 100%;
+          height: 50px;
+          object-fit: cover;
+          border-radius: 10px;
+          margin-bottom: 15px;
+     }
+}
