@@ -359,12 +359,12 @@ header {
           width: 30%;
           /* más pequeño y adaptable */
           padding: 10px;
-          font-size: 15px;
+          font-size: 20px;
           /* reduce tamaño de texto */
      }
 
      .team-card p {
-          font-size: 10px;
+          font-size: 18px;
      }
 }
 
