@@ -247,6 +247,19 @@ header {
      background-color: #00ff04;
 }
 
+.h1big {
+     /* font-size: 25px;*/
+     font-size: 40px;
+     color: #00ff15;
+}
+
+
+
+
+
+
+
+
 /* Responsive en móviles */
 @media (max-width: 768px) {
      .news-container {
