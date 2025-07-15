@@ -365,28 +365,30 @@ header {
      .news-content {
           padding-top: 20px;
      }
-       .team-carousel {
-            max-height: 250px;
-            /* Ajustá el alto que te parezca lindo en celular */
-            overflow-y: hidden;
-            padding: 20px 10px;
-            /* más suave en celular */
-       }
 
-       .team-card {
-            flex: 0 0 300px;
-            /* más estrecho en celular */
-            height: auto;
-            /* dejalo fluir si querés que crezca con el texto */
-            padding: 10px;
-       }
+     .team-carousel {
+          max-height: 450px;
+          max-width: 50%;
+          /* Ajustá el alto que te parezca lindo en celular */
+          overflow-y: hidden;
+          padding: 20px 10px;
+          /* más suave en celular */
+     }
 
-       .team-card img {
-            height: 120px;
-            /* bajale un poco la altura de imagen */
-       }
+     .team-card {
+          flex: 0 0 300px;
+          /* más estrecho en celular */
+          height: auto;
+          /* dejalo fluir si querés que crezca con el texto */
+          padding: 10px;
+     }
 
-    
+     .team-card img {
+          height: 120px;
+          /* bajale un poco la altura de imagen */
+     }
+
+
      .team-card p {
           font-size: 18px;
           color: #c800ff;
