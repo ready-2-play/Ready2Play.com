@@ -356,7 +356,7 @@ header {
      }
 
      .team-card {
-          width: 10%;
+          width: 150px;
           /* más pequeño y adaptable */
           padding: 10px;
           font-size: 20px;
@@ -389,15 +389,5 @@ header {
      .title-group {
           order: -1;
           flex-grow: 0;
-     }
-}
-
-@media (min-width: 500px) {
-     .team-card img {
-          width: 100%;
-          height: 50px;
-          object-fit: cover;
-          border-radius: 10px;
-          margin-bottom: 15px;
      }
 }
