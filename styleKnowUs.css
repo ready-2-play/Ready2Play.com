@@ -368,7 +368,7 @@ header {
 
      .team-carousel {
           max-height: 450px;
-          max-width: 50%;
+          max-width: 95%;
           /* Ajustá el alto que te parezca lindo en celular */
           overflow-y: hidden;
           padding: 20px 10px;
@@ -376,7 +376,7 @@ header {
      }
 
      .team-card {
-          flex: 0 0 300px;
+          flex: 0 0 250px;
           /* más estrecho en celular */
           height: auto;
           /* dejalo fluir si querés que crezca con el texto */
