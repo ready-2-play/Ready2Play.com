@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Clau",
+    "image": "images/team/clau.png",
+    "description": "Emotional support mentor. Focused on wellness and safe online spaces.",
+    "about_me": "I'm a cheerful and empathetic gamer girl who loves connecting through games and good vibes.",
+    "favorite_games": "Fortnite, Zelda BOTW and TOTK, Mario (all), Animal Crossing, Rocket League"
+  },
+  {
+    "name": "Shane",
+    "image": "images/team/shane.png",
+    "description": "Game strategist and community builder. Loves team play and esports.",
+    "about_me": "I'm a gamer and a proud dad. I enjoy being around kids in positive, playful environments, and I'm always happy to offer support, friendship, and good vibes.",
+    "favorite_games": "Fortnite, Call of Duty, Mario Party"
+  },
+  {
+    "name": "Ceci",
+    "image": "images/team/ceci.png",
+    "description": "Mentor and creative director. Leads with passion for youth and gaming.",
+    "about_me": "I'm a gamer mom and pediatrician who loves playing with friends and connecting through games. I'm caring, empathetic, and passionate about helping others—especially kids. I’m responsible, detail-focused, and always happy to give advice or be a good friend.",
+    "favorite_games": "Fortnite, Disney Dreamlight Valley, Mario Party"
+  },
+   {
+    "name": "Ceci 2",
+    "image": "images/team/ceci.png",
+    "description": "Mentor and creative director. Leads with passion for youth and gaming.",
+    "about_me": "I'm a gamer mom and pediatrician who loves playing with friends and connecting through games. I'm caring, empathetic, and passionate about helping others—especially kids. I’m responsible, detail-focused, and always happy to give advice or be a good friend.",
+    "favorite_games": "Fortnite, Disney Dreamlight Valley, Mario Party"
+  },
+   {
+    "name": " Ma Ceci",
+    "image": "images/team/ceci.png",
+    "description": "Mentor and creative director. Leads with passion for youth and gaming.",
+    "about_me": "I'm a gamer mom and pediatrician who loves playing with friends and connecting through games. I'm caring, empathetic, and passionate about helping others—especially kids. I’m responsible, detail-focused, and always happy to give advice or be a good friend.",
+    "favorite_games": "Fortnite, Disney Dreamlight Valley, Mario Party"
+  }
+  
+]
