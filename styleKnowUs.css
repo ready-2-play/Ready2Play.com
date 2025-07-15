@@ -356,9 +356,9 @@ header {
      }
 
      .team-card {
-          width: 50%;
+          width: 30%;
           /* más pequeño y adaptable */
-          padding: 10px;
+          padding: 5px;
           font-size: 20px;
           /* reduce tamaño de texto */
      }
@@ -369,7 +369,7 @@ header {
 
      .team-card img {
           width: 100%;
-          height: 120px;
+          height: 180px;
           object-fit: cover;
           border-radius: 10px;
           margin-bottom: 15px;
