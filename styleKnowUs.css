@@ -368,7 +368,7 @@ header {
 
      .team-carousel {
           max-height: 450px;
-          max-width: 95%;
+          max-width: 85%;
           /* Ajustá el alto que te parezca lindo en celular */
           overflow-y: hidden;
           padding: 20px 10px;
