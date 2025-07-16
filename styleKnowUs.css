@@ -422,7 +422,7 @@ header {
 .nav-button {
      background-color: #000;
      color: #00ff08;
-     border: 8px solid #00ff08;
+     border: 5px solid #00ff08;
      border-radius: 20%;
      font-size: 35px;
      padding: 10px 18px;
@@ -433,7 +433,7 @@ header {
 .nav-button:hover {
      background-color: #000000;
      color: #d000ff;
-     border: 8px solid #d000ff;
+     border: 5px solid #d000ff;
      border-radius: 20%;
      font-size: 35px;
      padding: 10px 18px;
