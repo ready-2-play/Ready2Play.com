@@ -275,6 +275,17 @@ header {
      text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 
+.h1big2 {
+     font-size: 40px;
+     color: #00ff15;
+     margin: 0;
+     font-family: 'Orbitron',
+          'Courier New',
+          Courier,
+          monospace;
+     text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
 .h3know {
      color: #00ff04;
      font-family: 'Orbitron',
@@ -487,6 +498,49 @@ header {
           border-radius: 10px;
           margin-bottom: 15px;
      } */
+     .h1big {
+          font-size: 20px;
+          color: #00ff15;
+          margin: 0;
+          font-family: 'Orbitron',
+               'Courier New',
+               Courier,
+               monospace;
+          text-shadow: rgb(0, 0, 0) 1px 0 10px;
+     }
+
+     .team-carousel-wrapper {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 5px;
+          padding: 10px 0;
+          overflow: hidden;
+
+     }
+
+     .nav-button {
+          background-color: #000;
+          color: #00ff08;
+          border: 2px solid #00ff08;
+          border-radius: 20%;
+          font-size: 15px;
+          padding: 5px 8px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+     }
+
+     .nav-button:hover {
+          background-color: #000000;
+          color: #d000ff;
+          border: 2px solid #d000ff;
+          border-radius: 20%;
+          font-size: 15px;
+          padding: 5px 8px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+
+     }
 }
 
 
