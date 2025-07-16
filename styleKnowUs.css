@@ -366,7 +366,7 @@ header {
      gap: 20px;
      padding: 40px 0;
      overflow: hidden;
-     
+
 
 }
 
@@ -398,11 +398,12 @@ header {
      position: relative;
      border-radius: 25px;
      box-shadow: 5px 5px rgb(0, 253, 34);
-     
+
 }
+
 .team-carousel:hover {
      box-shadow: 5px 5px rgba(0, 0, 0);
-     
+
 }
 
 
@@ -421,7 +422,7 @@ header {
           Geneva,
           Verdana,
           sans-serif;
-          
+
 }
 
 .team-card.active {
@@ -472,13 +473,23 @@ header {
           padding-top: 20px;
      }
 
-     .team-carousel {
-          /* max-height: 720px; */
+     /* .team-carousel {
+        
           max-width: 95%;
-          /* Ajustá el alto que te parezca lindo en celular */
+          
           overflow-y: hidden;
           padding: 20px 10px;
-          /* más suave en celular */
+         
+     } */
+     .team-carousel-wrapper {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          padding: 20px 0;
+          overflow: hidden;
+
+
      }
 
      .team-card {
@@ -508,7 +519,8 @@ header {
           margin-bottom: 15px;
      } */
      .h1big {
-          font-size: 20px;
+          font-size: 14px;
+          align-items: center;
           color: #00ff15;
           margin: 0;
           font-family: 'Orbitron',
@@ -543,7 +555,7 @@ header {
           background-color: #000000;
           color: #d000ff;
           border: 2px solid #d000ff;
-          border-radius: 20%;
+          border-radius: 5%;
           font-size: 15px;
           padding: 5px 8px;
           cursor: pointer;
