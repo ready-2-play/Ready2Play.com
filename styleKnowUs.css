@@ -12,7 +12,7 @@ html {
 body {
      font-family: 'Arial', sans-serif;
      background-color: #5c5959;
-     
+
 }
 
 
@@ -273,6 +273,7 @@ header {
           'Courier New',
           Courier,
           monospace;
+     text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 
 .h3know {
@@ -355,8 +356,9 @@ header {
      gap: 20px;
      padding: 40px 0;
      overflow: hidden;
-    
+
 }
+
 .team-carousel-wrapper::before {
      content: "";
      position: absolute;
@@ -417,15 +419,16 @@ header {
      cursor: pointer;
      transition: background-color 0.3s;
 }
-.nav-button:hover{
-      background-color: #000000;
-      color: #d000ff;
-      border: 8px solid #d000ff;
-      border-radius: 20%;
-      font-size: 35px;
-      padding: 10px 18px;
-      cursor: pointer;
-      transition: background-color 0.3s;
+
+.nav-button:hover {
+     background-color: #000000;
+     color: #d000ff;
+     border: 8px solid #d000ff;
+     border-radius: 20%;
+     font-size: 35px;
+     padding: 10px 18px;
+     cursor: pointer;
+     transition: background-color 0.3s;
 
 }
 
