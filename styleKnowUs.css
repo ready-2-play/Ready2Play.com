@@ -546,8 +546,9 @@ header {
 
      .nav-button {
           color: #9000ff;
+          background-color: gray;
           font-size: 10px;
-          padding: 8px 12px;
+          padding: 4px 5px;
           border: 3px solid #9000ff;
           border-radius: 5%;
      }
