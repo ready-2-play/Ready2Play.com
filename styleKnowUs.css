@@ -366,6 +366,7 @@ header {
      gap: 20px;
      padding: 40px 0;
      overflow: hidden;
+     
 
 }
 
@@ -396,7 +397,14 @@ header {
      overflow: hidden;
      position: relative;
      border-radius: 25px;
+     box-shadow: 5px 5px rgb(0, 253, 34);
+     
 }
+.team-carousel:hover {
+     box-shadow: 5px 5px rgba(0, 0, 0);
+     
+}
+
 
 .team-card {
      display: none;
@@ -406,13 +414,14 @@ header {
      padding: 20px;
      text-align: center;
      scroll-snap-align: center;
-     box-shadow: 0 8px 20px rgb(0, 253, 34);
+     box-shadow: 0 18px 20px rgb(0, 253, 34);
      transition: transform 0.3s ease;
      font-family: 'Orbitron',
           Tahoma,
           Geneva,
           Verdana,
           sans-serif;
+          
 }
 
 .team-card.active {
