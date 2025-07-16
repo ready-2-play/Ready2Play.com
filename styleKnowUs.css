@@ -493,9 +493,22 @@ header {
           color: #ae00ff;
      }
 
+     .h1big {
+          font-size: 14px;
+          align-items: center;
+          color: #00ff15;
+          margin: 0;
+          font-family: 'Orbitron',
+               'Courier New',
+               Courier,
+               monospace;
+          text-shadow: rgb(0, 0, 0) 1px 0 10px;
+     }
+
      .h1big2 {
           font-size: 14px;
           align-items: center;
+          text-align: center;
           color: #00ff15;
           margin: 0;
           font-family: 'Orbitron',
@@ -521,7 +534,7 @@ header {
           scroll-snap-type: x mandatory;
           -webkit-overflow-scrolling: touch;
           gap: 20px;
-          width: 90%;
+          width: 100%;
           padding: 20px 0;
      }
 
