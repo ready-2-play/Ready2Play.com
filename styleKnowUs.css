@@ -442,8 +442,8 @@ header {
 
 .nav-button:hover {
      background-color: #000000;
-     color: #d000ff;
-     border: 5px solid #d000ff;
+     color: ##9000ff;
+     border: 5px solid ##9000ff;
      border-radius: 20%;
      font-size: 35px;
      padding: 10px 18px;
@@ -534,7 +534,7 @@ header {
           scroll-snap-type: x mandatory;
           -webkit-overflow-scrolling: touch;
           gap: 20px;
-          width: 100%;
+          width: 85%;
           padding: 20px 0;
      }
 
