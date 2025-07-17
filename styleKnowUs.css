@@ -451,13 +451,13 @@ header {
 }
 
 .nav-button:hover {
-     color: #ff00f7;
-     border-color: #ff00f7;
+     color: #9d00ff;
+     border-color: #9d00ff;
      box-shadow:
-          0 0 15px #ff00f7,
-          0 0 25px #ff00f7,
-          0 0 40px #ff00f7,
-          inset 0 0 15px #ff00f7;
+          0 0 15px #9d00ff,
+          0 0 25px #9d00ff,
+          0 0 40px #9d00ff,
+          inset 0 0 15px #9d00ff;
      transform: scale(1.15) rotate(1deg);
      background-color: #111;
 }
@@ -588,37 +588,37 @@ header {
           /* oculta scrollbar en móviles para estilo más limpio */
      }
 
-      .nav-button {
-           font-size: 22px;
-           width: 50px;
-           height: 50px;
-           border: 2px solid #0f0;
-           border-radius: 50%;
-           background-color: #000;
-           color: #0f0;
-           display: flex;
-           align-items: center;
-           justify-content: center;
-           cursor: pointer;
-           box-shadow:
-                0 0 6px #0f0,
-                0 0 12px #0f0,
-                0 0 20px #00ff00,
-                inset 0 0 6px #0f0;
-           transition: all 0.3s ease;
-      }
+     .nav-button {
+          font-size: 22px;
+          width: 50px;
+          height: 50px;
+          border: 2px solid #0f0;
+          border-radius: 50%;
+          background-color: #000;
+          color: #0f0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          box-shadow:
+               0 0 6px #0f0,
+               0 0 12px #0f0,
+               0 0 20px #00ff00,
+               inset 0 0 6px #0f0;
+          transition: all 0.3s ease;
+     }
 
-      .nav-button:hover {
-           color: #ff00f7;
-           border-color: #ff00f7;
-           box-shadow:
-                0 0 8px #ff00f7,
-                0 0 18px #ff00f7,
-                0 0 28px #ff00f7,
-                inset 0 0 10px #ff00f7;
-           transform: scale(1.1);
-           background-color: #111;
-      }
+     .nav-button:hover {
+          color: #9d00ff;
+          border-color: #9d00ff;
+          box-shadow:
+               0 0 8px #9d00ff,
+               0 0 18px #9d00ff,
+               0 0 28px #9d00ff,
+               inset 0 0 10px #9d00ff;
+          transform: scale(1.1);
+          background-color: #111;
+     }
 }
 
 
