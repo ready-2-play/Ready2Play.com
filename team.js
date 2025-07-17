@@ -71,3 +71,15 @@ document.addEventListener("DOMContentLoaded", () => {
                console.error("Error cargando el JSON:", error);
           });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+     document.body.classList.add("page-enter");
+});
+
+window.addEventListener('load', () => {
+     const audio = document.getElementById('start-sound');
+     audio.volume = 0.5; // volumen medio
+     audio.play().catch(e => {
+          console.log('Autoplay bloqueado. Se reproducirá tras una interacción.');
+     });
+});
