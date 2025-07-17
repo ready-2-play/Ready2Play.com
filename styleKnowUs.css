@@ -503,13 +503,36 @@ header {
           font-size: 25px;
           align-items: center;
           text-align: center;
-          color: #a000fd;
+          color: rgb(0, 249, 42);
+          font-weight: bolder;
           margin: 0;
           font-family: 'Orbitron',
                'Courier New',
                Courier,
                monospace;
           text-shadow: rgb(0, 0, 0) 1px 0 10px;
+     }
+
+     .team-carousel {
+          display: flex;
+          overflow-x: scroll;
+          scroll-snap-type: x mandatory;
+          gap: 20px;
+          width: 100%;
+          padding: 20px;
+     }
+
+     .team-card {
+          display: block;
+          /* No más display: none */
+          flex: 0 0 85%;
+          /* Mostrar de a una casi completa */
+          scroll-snap-align: center;
+          background-color: #000;
+     }
+
+     .team-card img {
+          height: 140px;
      }
 
      .team-carousel-wrapper {
@@ -522,7 +545,7 @@ header {
           gap: 10px;
      }
 
-     .team-carousel {
+     /* .team-carousel {
           display: flex;
           overflow-x: auto;
           scroll-snap-type: x mandatory;
@@ -530,8 +553,8 @@ header {
           gap: 20px;
           width: 85%;
           padding: 20px 0;
-     }
-
+     } */
+     /* 
      .team-card {
           display: block;
           flex: 0 0 300px;
@@ -542,16 +565,27 @@ header {
 
      .team-card img {
           height: 160px;
+     } */
+     .team-carousel::-webkit-scrollbar {
+          display: none;
+          /* oculta scrollbar en móviles para estilo más limpio */
      }
 
-     .nav-button {
-          color: #9000ff;
-          background-color: gray;
-          font-size: 10px;
-          padding: 4px 5px;
-          border: 3px solid #9000ff;
-          border-radius: 5%;
-     }
+       .nav-button {
+            font-size: 20px;
+            /* Más pequeño y limpio */
+            padding: 6px 10px;
+            border: 2px solid #9000ff;
+            border-radius: 5px #9000ff;
+            background-color: #000 ;
+            color: #00ff08;
+       }
+
+       .nav-button:hover {
+            background-color: #111;
+            color: #ff00f2;
+            border-color: #ff00f2;
+       }
 }
 
 
